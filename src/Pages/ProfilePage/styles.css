@@ -1,0 +1,46 @@
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* padding: 1rem; */
+    width: 25vw;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.top{
+    height: 5rem;
+    background-color: white;
+    width: 100%;
+    padding-left: 1rem;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.bg{
+    background-color: #F7F8F9;
+    padding-left: 1rem;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+}
+
+.data{
+    padding-left: 1rem;
+}
+
+.img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.img img{
+    height: 8rem;
+    width: 8rem;
+}
