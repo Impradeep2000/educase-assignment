@@ -8,3 +8,15 @@
   border-radius: 0.5rem;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
+@media screen and (max-width:400px) {
+  .landing{
+    width: 80vw;
+  }
+}
+
+@media (min-width:401px) and (max-width:1000px){
+  .landing{
+    width: 50vw;
+  }
+}

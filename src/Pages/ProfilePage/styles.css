@@ -44,3 +44,15 @@
     height: 8rem;
     width: 8rem;
 }
+
+@media screen and (max-width:400px){
+    .profile{
+        width: 80vw;
+    }
+}
+
+@media (min-width:401px) and (max-width:1000px){
+    .profile{
+        width: 50vw;
+    }
+}

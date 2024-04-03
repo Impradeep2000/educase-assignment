@@ -6,6 +6,7 @@ function Input({ type, label, placeholder, required}) {
     <div className="input-container">
       <label>{label}</label>
       <input
+      
         type={type}
         required={required}
         placeholder={placeholder}
